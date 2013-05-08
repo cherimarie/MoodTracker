@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+         <!--chili lime theme -->
+     <color name="gold">#BD8620</color>
+     <color name="sand">#F7DB86</color>
+     <color name="cilantro">#83B03C</color>
+     <color name="lime">#CEF060</color>
+     <color name="chilis">#C22D2D</color>
+     <color name="error">#F50565</color>
+    
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Super App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="comments_label">Comments</string>
+	<string name="headline"> Super App</string>
+	<string name="cat_desc">ugly cat</string>
+	<string name="name_label">Name:</string>
+	<string name="phone_label">Phone:</string>
+	<string name="fire_label">I am currently on fire.</string>
+	<string name="yes_answer">Yes, I would like to be on fire</string>
+	<string name="no_answer">No, I would prefer not to be on fire</string>
+	<string name="rating_label">How freaking sweet is setting things on fire?</string>
+	<string name="button_text">Continue</string>
+	<string name="too_short">*Too Short!</string>
+	<string name="lname_label">Last Name:</string>
+</resources>
