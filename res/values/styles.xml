@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -33,6 +33,10 @@
 
     <style name="cl_para">
         <item name="android:textSize">@dimen/para</item>
+    </style>
+    
+    <style name="cl_error">
+        <item name="android:textColor">@color/error</item>
     </style>
     
 
