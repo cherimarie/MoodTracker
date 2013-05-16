@@ -11,6 +11,7 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
+        public static final int aqua=0x7f040008;
         public static final int chilis=0x7f040004;
         public static final int cilantro=0x7f040002;
         public static final int error=0x7f040005;
@@ -18,49 +19,79 @@ public final class R {
          */
         public static final int gold=0x7f040000;
         public static final int lime=0x7f040003;
+        public static final int midnight=0x7f04000a;
+        public static final int puce=0x7f040007;
+        public static final int salmon=0x7f04000b;
         public static final int sand=0x7f040001;
+        /**  beach theme  
+         */
+        public static final int shell=0x7f040006;
+        public static final int teal=0x7f040009;
+        public static final int test=0x7f04000c;
     }
     public static final class dimen {
-        /**  Default screen margins, per the Android Design guidelines. 
-
+        /** 
          Customize dimensions originally defined in res/values/dimens.xml (such as
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
-        public static final int h1=0x7f050002;
-        public static final int h2=0x7f050003;
-        public static final int para=0x7f050004;
+        public static final int activity_horizontal_margin=0x7f050005;
+        /**  Default screen margins, per the Android Design guidelines. 
+         */
+        public static final int activity_margin=0x7f050000;
+        public static final int btn=0x7f050004;
+        public static final int h1=0x7f050001;
+        public static final int h2=0x7f050002;
+        public static final int para=0x7f050003;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f090000;
+        public static final int action_settings=0x7f09000e;
+        public static final int btn_about=0x7f090004;
+        public static final int btn_add_1=0x7f090006;
+        public static final int btn_add_2=0x7f090008;
+        public static final int btn_add_3=0x7f09000a;
+        public static final int btn_back=0x7f09000d;
+        public static final int btn_send=0x7f09000c;
+        public static final int btn_setup=0x7f090003;
+        public static final int btn_view=0x7f090002;
+        public static final int btn_whatsup=0x7f090001;
+        public static final int edittext_email1=0x7f090005;
+        public static final int edittext_email2=0x7f090007;
+        public static final int edittext_email3=0x7f090009;
+        public static final int edittext_sender_email=0x7f09000b;
+        public static final int home_headline=0x7f090000;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
+        public static final int activity_home=0x7f030000;
+        public static final int activity_main=0x7f030001;
     }
     public static final class menu {
         public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f060001;
+        public static final int about=0x7f060006;
+        public static final int action_settings=0x7f060004;
         public static final int app_name=0x7f060000;
-        public static final int button_text=0x7f06000c;
-        public static final int cat_desc=0x7f060005;
-        public static final int comments_label=0x7f060003;
-        public static final int fire_label=0x7f060008;
-        public static final int headline=0x7f060004;
-        public static final int hello_world=0x7f060002;
-        public static final int lname_label=0x7f06000e;
-        public static final int name_label=0x7f060006;
-        public static final int no_answer=0x7f06000a;
-        public static final int phone_label=0x7f060007;
-        public static final int rating_label=0x7f06000b;
-        public static final int too_short=0x7f06000d;
-        public static final int yes_answer=0x7f060009;
+        public static final int back=0x7f060003;
+        public static final int btn_add=0x7f06000a;
+        public static final int btn_back=0x7f06000c;
+        public static final int btn_go=0x7f06000b;
+        public static final int btn_rmv=0x7f060009;
+        public static final int email_error=0x7f06000d;
+        public static final int from_addy_label=0x7f060001;
+        public static final int home_headline=0x7f06000f;
+        public static final int intro_para=0x7f060008;
+        public static final int required_error=0x7f06000e;
+        public static final int send=0x7f060002;
+        public static final int send_addy_label=0x7f060007;
+        public static final int setup=0x7f060012;
+        public static final int share_headline=0x7f060005;
+        public static final int view=0x7f060011;
+        public static final int whatsup=0x7f060010;
+        public static final int x=0x7f060013;
     }
     public static final class style {
         /** 
@@ -89,10 +120,15 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f070001;
-        /**  Chili Lime Theme 
+        /**   Beach Theme  
          */
-        public static final int cl_heading1=0x7f070002;
-        public static final int cl_heading2=0x7f070003;
-        public static final int cl_para=0x7f070004;
+        public static final int b_bg=0x7f070002;
+        public static final int b_btn_back=0x7f070007;
+        public static final int b_btn_go=0x7f070006;
+        public static final int b_btn_q=0x7f070008;
+        public static final int b_error=0x7f070009;
+        public static final int b_h1=0x7f070003;
+        public static final int b_h2=0x7f070004;
+        public static final int b_para=0x7f070005;
     }
 }
