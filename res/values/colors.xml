@@ -7,5 +7,14 @@
      <color name="lime">#CEF060</color>
      <color name="chilis">#C22D2D</color>
      <color name="error">#F50565</color>
-    
+     
+     <!-- beach theme  -->
+     <color name="shell">#F2D2B6</color>
+     <color name="puce">#FCF5B9</color>
+     <color name="aqua">#94F2E9</color>
+     <color name="teal">#035159</color>
+     <color name="midnight">#013440</color>
+     <color name="salmon">#C26E62</color>
+     
+     <color name="test">#fff</color>
 </resources>

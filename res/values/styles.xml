@@ -17,27 +17,46 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     
-    
-        
-               <!-- Chili Lime Theme -->
-    <style name="cl_heading1">
-        <item name="android:textSize">@dimen/h1</item>
-        <item name="android:textColor">@color/chilis</item>
-        <item name="android:background">@color/sand</item>
-    </style>
-    
-    <style name="cl_heading2">
-        <item name="android:textColor">@color/cilantro</item>
-        <item name="android:textSize">@dimen/h2</item>
-    </style>
 
-    <style name="cl_para">
+    <!--  Beach Theme  -->
+    <style name="b_bg">
+        <item name="android:background">@color/puce</item>
+    </style>
+    
+     <style name="b_h1">
+        <item name="android:textSize">@dimen/h1</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+    
+    <style name="b_h2">
+        <item name="android:textSize">@dimen/h1</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+    
+    <style name="b_para">
         <item name="android:textSize">@dimen/para</item>
     </style>
     
-    <style name="cl_error">
-        <item name="android:textColor">@color/error</item>
+    <style name="b_btn_go">
+        <item name="android:textSize">@dimen/btn</item>
+        <item name="android:background">@color/aqua</item>
     </style>
+    
+   <style name="b_btn_back">
+        <item name="android:textSize">@dimen/btn</item>
+        <item name="android:background">@color/teal</item>
+    </style>
+    
+    <style name="b_btn_q">
+        <item name="android:textSize">@dimen/btn</item>
+        <item name="android:background">@color/salmon</item>
+    </style>
+    
+    <style name="b_error">
+        <item name="android:textSize">@dimen/para</item>
+        <item name="android:textColor">@color/salmon</item>
+    </style>
+    
     
 
 </resources>

@@ -7,12 +7,18 @@
 	<string name="back">Back</string>
 	<string name="action_settings">Settings</string>
 	<string name="share_headline">Share a Graph</string>
-	<string name="e"></string>
-	<string name="about">?</string>
+	<string name="about">\?</string>
 	<string name="send_addy_label">Address to send to:</string>
 	<string name="intro_para">You can send a copy of the current graph to any email address. It will only send an image of the graph with your name and email address, none of your other information.</string>
 	<string name="btn_rmv">-</string>
 	<string name="btn_add">+</string>
+	<string name="btn_go">go</string>
+	<string name="btn_back">back</string>
 	<string name="email_error">*Please enter a valid email address</string>
-	<string name=""></string>
+	<string name="required_error">*Required</string>
+	<string name="home_headline">Hello</string>
+	<string name="whatsup">What\'s Up?</string>
+	<string name="view">View a Graph</string>
+	<string name="setup">Set Up</string>
+	<string name="x">x</string>
 </resources>
