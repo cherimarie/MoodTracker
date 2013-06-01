@@ -1,24 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+   <!-- other strings -->
     <string name="app_name">Mood Tracker</string>
-    <string name="from_addy_label">Your email address:</string>
-    <string name="send">Send</string>
-	<string name="back">Back</string>
+  	<string name="intro_para">You can send a copy of the current graph to any email address. It will only send an image of the graph with your name and email address, none of your other information.</string>    
 	<string name="action_settings">Settings</string>
 	<string name="share_headline">Share a Graph</string>
-	<string name="about">\?</string>
-	<string name="send_addy_label">Address to send to:</string>
-	<string name="intro_para">You can send a copy of the current graph to any email address. It will only send an image of the graph with your name and email address, none of your other information.</string>
-	<string name="btn_rmv">-</string>
-	<string name="btn_add">+</string>
-	<string name="btn_go">go</string>
-	<string name="btn_back">back</string>
 	<string name="email_error">*Please enter a valid email address</string>
 	<string name="required_error">*Required</string>
 	<string name="home_headline">Hello</string>
 	<string name="whatsup">What\'s Up?</string>
 	<string name="view">View a Graph</string>
+	<string name="view_options">View Options</string>
 	<string name="setup">Set Up</string>
-	<string name="x">x</string>
+	<string-array name="reminder_array">
+	    <item>none</item>
+	    <item>12pm</item>
+	    <item>1pm</item>
+	    <item>2pm</item>
+        <item>3pm</item>
+        <item>4pm</item>
+        <item>5pm</item>
+        <item>6pm</item>
+        <item>7pm</item>
+        <item>8pm</item>
+        <item>9pm</item> 
+        <item>10pm</item> 
+        <item>11pm</item>
+        <item>12am</item>
+        <item>1am</item>
+        <item>2am</item>
+        <item>3am</item>
+        <item>4am</item>
+        <item>5am</item>
+        <item>6am</item>
+        <item>7am</item>
+        <item>8am</item>
+        <item>9am</item>
+        <item>10am</item>
+        <item>11am</item>             
+	</string-array>	
+	<string name="about_para">Lorem ipsum about this app....</string>
+	<string name="about_headline">About Mood Tracker</string>
+	
+
+		<string name="y">x</string>
+	
+	
+	
+	<!-- button strings -->
+	  <string name="about">About</string>
+	  <string name="send">Send</string>
+	<string name="back">Back</string>
+	<string name="btn_rmv">-</string>
+	<string name="btn_add">+</string>
+	<string name="btn_go">go</string>
+	<string name="save">Save</string>
+	<string name="btn_show">Show Graph</string>
+	<string name="btn_share">Share</string>
+	<string name="home">Home</string>
+	<string name="btn_photo">Add Photo</string>
+	
+	<!-- label strings -->
+	<string name="from_addy_label">Your email address:</string>
+	<string name="send_addy_label">Address to send to:</string>
+	<string name="intake_label">Common intakes (prescriptions, etc):</string>
+	<string name="event_label">Common events:</string>
+	<string name="reminder_label">Daily reminder?</string>
+	<string name="name_label">Name:</string>
+	<string name="mood_prompt">Mood:</string>
+	<string name="intake_prompt">Intake:</string>
+	<string name="event_prompt">Event:</string>
+	<string name="sleep_prompt">Slept:</string>
+	
 </resources>

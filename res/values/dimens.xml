@@ -3,8 +3,8 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_margin">20dp</dimen>
     <dimen name="h1">14pt</dimen>
-    <dimen name="h2">10pt</dimen>
-    <dimen name="para">8pt</dimen>
+    <dimen name="h2">8pt</dimen>
+    <dimen name="para">6pt</dimen>
     <dimen name="btn">6pt</dimen>
     
 </resources>

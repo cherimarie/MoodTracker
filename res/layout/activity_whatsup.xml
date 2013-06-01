@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+	 style="@style/b_bg"   >
+	 
+<!-- What's up page -->    
+	
+	<LinearLayout 
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"
+	 android:orientation="vertical"  >
+	 
+	<LinearLayout  
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+	
+	<!-- headline -->          
+        <TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/whatsup" 
+		style="@style/b_h1"/>
+                
+	<!-- save button -->
+	   	<Button
+		android:id="@+id/btn_save"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/save" />
+	   	
+	</LinearLayout>
+	
+<!-- mood label -->
+    <TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/mood_prompt" 
+	style="@style/b_h2"/>
+
+<!-- mood rating in stars -->
+
+
+<!-- intake label -->
+    <TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/intake_prompt" 
+	style="@style/b_h2"/>	
+	
+<!--  intake spinner  -->
+	<Spinner 
+    android:id="@+id/spinner_intake"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:prompt="@string/intake_prompt"	/>	
+    
+<!-- intake text box  -->
+	<EditText
+	android:id="@+id/edittext_intake"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:maxLength="25"
+	android:windowSoftInputMode="stateHidden"/>
+  	 	  	
+<!-- event label -->
+    <TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/event_prompt" 
+	style="@style/b_h2"/>	
+	
+<!--  event spinner  -->
+	<Spinner 
+    android:id="@+id/spinner_event"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:prompt="@string/event_prompt"	/>	
+    
+<!-- event text box  -->
+	<EditText
+	android:id="@+id/edittext_event"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:maxLength="25"
+	android:windowSoftInputMode="stateHidden"/>
+  	
+  	<LinearLayout  
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+	   	
+	   	<!-- sleep label -->
+	    <TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/sleep_prompt" 
+		style="@style/b_h2"/>	
+	  
+		<!--  sleep spinner  -->
+		<Spinner 
+	    android:id="@+id/spinner_sleep"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp"
+	    android:prompt="@string/sleep_prompt"	/>	
+   
+	 	<!-- photo button -->
+    	<Button
+		android:id="@+id/btn_photo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/btn_photo" />
+  
+    </LinearLayout>
+  	
+  	<!-- save button -->
+	    	<Button
+			android:id="@+id/btn_send"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/save" />
+	    	
+<!--back button  -->
+	    	<Button
+			android:id="@+id/btn_back"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/back" />
+	    	
+<!-- about button -->
+	    	<Button
+			android:id="@+id/btn_about"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/about" />
+  	
+  </LinearLayout>
+</ScrollView>

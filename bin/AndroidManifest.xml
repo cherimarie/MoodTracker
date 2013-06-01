@@ -14,13 +14,26 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.moodtracker.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".BaseActivity">
+        </activity>
+        <activity android:name=".AboutActivity">
+        </activity>
+        <activity android:name=".SetupActivity">
+        </activity>
+        <activity android:name=".ShareActivity">
+        </activity>
+        <activity android:name=".ViewActivity">
+        </activity>
+        <activity android:name=".ViewOptionsActivity">
+        </activity>
+        <activity android:name=".WhatsupActivity">
         </activity>
     </application>
 

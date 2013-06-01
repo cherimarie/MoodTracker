@@ -1,0 +1,222 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="vertical"
+    android:layout_width="fill_parent"
+    android:isScrollContainer="true"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/activity_margin"
+    	style="@style/b_bg"  >
+    
+ <!-- Setup Page, Mood Tracker  -->  
+         <LinearLayout
+       	android:layout_width="fill_parent"
+  	  	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:layout_margin="@dimen/activity_margin"  > 
+    	
+   	<!-- headline -->          
+             <TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/setup" 
+			style="@style/b_h1"/>	
+     
+        <!-- error space  -->    
+           	<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textview_setup_error" 
+			style="@style/b_error"/>
+           	
+         <!-- name label -->   
+            <TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/name_label" 
+			style="@style/b_h2"/>
+            
+        <!-- name text box -->
+       		<EditText
+    		android:id="@+id/edittext_name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:maxLength="30"
+			android:windowSoftInputMode="stateHidden"/>
+        
+         <!-- intake label -->   
+            <TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/intake_label" 
+			style="@style/b_h2"/>
+            
+		<!-- intake text box and button 1 -->
+    		<EditText
+    		android:id="@+id/edittext_intake1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxLength="25"
+			android:windowSoftInputMode="stateHidden"/>
+    		
+    		<Button
+			android:id="@+id/btn_add_intake1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btn_add" />
+    		
+    		<Button
+			android:id="@+id/btn_rmv_intake1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btn_rmv" />
+
+		<!-- intake text box and button 2 -->
+   
+    	    <EditText
+    	    android:id="@+id/edittext_intake2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxLength="25"
+			android:windowSoftInputMode="stateHidden"/>
+    	    
+    	   
+    		<Button
+			android:id="@+id/btn_add_intake2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btn_add" />
+    		
+    		<Button
+			android:id="@+id/btn_rmv_intake2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btn_rmv" />
+
+		<!-- intake text box and button 3 -->
+   
+    	    <EditText
+			android:id="@+id/edittext_intake3" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxLength="25"
+			android:windowSoftInputMode="stateHidden" />
+    	    
+    		<Button
+			android:id="@+id/btn_add_intake3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btn_add" />
+    		
+    		<Button
+			android:id="@+id/btn_rmv_intake3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btn_rmv" />
+	
+	
+<!-- event label -->
+	        <TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/event_label" 
+			style="@style/b_h2"/>
+	        
+	     <!-- event text box and button 1 -->
+    		<EditText
+    		android:id="@+id/edittext_event1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxLength="25"
+			android:windowSoftInputMode="stateHidden"/>
+    		
+    		<Button
+			android:id="@+id/btn_add_event1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btn_add" />
+    		
+    		<Button
+			android:id="@+id/btn_rmv_event1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btn_rmv" />
+
+		<!-- event text box and button 2 -->
+   
+    	    <EditText
+    	    android:id="@+id/edittext_event2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxLength="25"
+			android:windowSoftInputMode="stateHidden"/>
+    	    
+    	   
+    		<Button
+			android:id="@+id/btn_add_event2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btn_add" />
+    		
+    		<Button
+			android:id="@+id/btn_rmv_event2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btn_rmv" />
+
+		<!-- event text box and button 3 -->
+   
+    	    <EditText
+			android:id="@+id/edittext_event3" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxLength="25"
+			android:windowSoftInputMode="stateHidden" />
+    	    
+    		<Button
+			android:id="@+id/btn_add_event3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btn_add" />
+    		
+    		<Button
+			android:id="@+id/btn_rmv_event3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btn_rmv" />
+	
+		<!-- reminder label -->
+		    <TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/reminder_label" 
+			style="@style/b_h2"/>
+		      
+		<!--  reminder spinner 1 -->
+    		<Spinner 
+    		    android:id="@+id/spinner_reminder"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_marginBottom="10dp"
+    		    android:prompt="@string/reminder_label"	/>		
+<!-- save button -->
+	    	<Button
+			android:id="@+id/btn_send"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/save" />
+	    	
+<!--back button  -->
+	    	<Button
+			android:id="@+id/btn_back"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/back" />
+	    	
+<!-- about button -->
+	    	<Button
+			android:id="@+id/btn_about"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/about" />
+	</LinearLayout>
+</ScrollView>

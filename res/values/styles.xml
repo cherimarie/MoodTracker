@@ -29,7 +29,7 @@
     </style>
     
     <style name="b_h2">
-        <item name="android:textSize">@dimen/h1</item>
+        <item name="android:textSize">@dimen/h2</item>
         <item name="android:textColor">@color/midnight</item>
     </style>
     
@@ -50,6 +50,11 @@
     <style name="b_btn_q">
         <item name="android:textSize">@dimen/btn</item>
         <item name="android:background">@color/salmon</item>
+    </style>
+    
+   <style name="b_btn_other">
+        <item name="android:textSize">@dimen/btn</item>
+        <item name="android:background">@color/puce</item>
     </style>
     
     <style name="b_error">

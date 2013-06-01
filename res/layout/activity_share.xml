@@ -1,0 +1,146 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="vertical"
+    android:layout_width="fill_parent"
+    android:isScrollContainer="true"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/activity_margin"
+    style="@style/b_bg"  >
+    
+ <!-- Share A Graph Page, Mood Tracker  -->  
+         <LinearLayout
+       	android:layout_width="fill_parent"
+  	  	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:layout_margin="@dimen/activity_margin" > 
+    	
+   	<!-- headline -->          
+             <TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/share_headline" 
+			style="@style/b_h1"/>	
+        
+      <!-- intro paragraph -->      
+            <TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/intro_para" 
+			style="@style/b_para"/>
+            
+        <!-- error space  -->    
+           	<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/email_error" 
+			style="@style/b_error"/>
+           	
+         <!-- address label -->   
+            <TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/send_addy_label" 
+			style="@style/b_h2"/>
+    	
+	<LinearLayout  
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+<!-- text box and button  -->
+	    		<EditText
+	    		android:id="@+id/edittext_email1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:maxLength="25"
+				android:windowSoftInputMode="stateHidden"/>
+	    		
+	    		<Button
+				android:id="@+id/btn_add_1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/btn_add" />
+	</LinearLayout  >
+	
+	<LinearLayout   
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	   	android:visibility="invisible" >
+<!-- text box and button 2 -->
+	   
+	    	    <EditText
+	    	    android:id="@+id/edittext_email2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:maxLength="25"
+				android:windowSoftInputMode="stateHidden"
+				 />
+	    	    
+	    	   
+	    		<Button
+				android:id="@+id/btn_add_2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/btn_add" />
+	</LinearLayout  >
+
+
+	<LinearLayout  
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	   	android:visibility="invisible" >
+<!-- text box and button 3 -->
+	   
+	    	    <EditText
+				android:id="@+id/edittext_email3" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:maxLength="25"
+				android:windowSoftInputMode="stateHidden" />
+	    	    
+	    		<Button
+				android:id="@+id/btn_add_3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/btn_add" />
+	</LinearLayout  >
+		
+	
+<!-- your email label -->
+	        <TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/from_addy_label" 
+			style="@style/b_h2"/>
+	        
+<!-- your email textbox -->
+			<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxLength="20"
+			android:windowSoftInputMode="stateHidden"
+			android:id="@+id/edittext_sender_email" />
+			
+<!-- send button -->
+	    	<Button
+			android:id="@+id/btn_send"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/send" />
+	    	
+<!--back button  -->
+	    	<Button
+			android:id="@+id/btn_back"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/back" />
+	    	
+<!-- about button -->
+	    	<Button
+			android:id="@+id/btn_about"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/about" />
+	</LinearLayout>
+</ScrollView>
