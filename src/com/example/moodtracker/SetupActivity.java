@@ -13,7 +13,6 @@ public class SetupActivity extends BaseActivity  {
 		setContentView(R.layout.activity_setup);
 		initButton(R.id.btn_send, MainActivity.class);
 		initButton(R.id.btn_back, MainActivity.class);
-		initButton(R.id.btn_about, AboutActivity.class);
 	}
 	
 	

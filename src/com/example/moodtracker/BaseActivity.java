@@ -1,6 +1,10 @@
 package com.example.moodtracker;
 
+
+
 import android.app.Activity;
+import android.content.Intent;
+import android.view.Menu;
 
 public class BaseActivity  extends Activity{
 	/* The keys for all the settings shared preferences */
@@ -22,6 +26,18 @@ public class BaseActivity  extends Activity{
 	public static final String SETTINGS_PREFS_WUP_EVENT2 = "W_EVENT2";
 	public static final String SETTINGS_PREFS_WUP_EVENT3 = "W_EVENT3";
 	public static final int SETTINGS_PREFS_WUP_SLEEP = 0;
+	
+
+	public boolean onCreateOptionsMenu(Menu menu)
+	{
+		super.onCreateOptionsMenu(menu); 
+		
+		getMenuInflater().inflate(R.menu.general_menu, menu); 
+		
+		menu.findItem(R.id.menuitem_about).setIntent(new Intent(this, AboutActivity.class));
+		menu.findItem(R.id.menuitem_settings).setIntent(new Intent(this, SetupActivity.class));
+		return true; 
+	}
 	
 }
 //dont yet have prefs for view options

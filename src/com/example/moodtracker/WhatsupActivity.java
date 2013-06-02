@@ -14,7 +14,6 @@ public class WhatsupActivity extends BaseActivity  {
 		initButton(R.id.btn_save, MainActivity.class);
 		initButton(R.id.btn_send, MainActivity.class);
 		initButton(R.id.btn_back, MainActivity.class);
-		initButton(R.id.btn_about, AboutActivity.class);
 	}
 	
 	

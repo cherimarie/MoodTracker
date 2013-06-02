@@ -13,7 +13,6 @@ public class ViewOptionsActivity extends BaseActivity  {
 		setContentView(R.layout.activity_view_options);
 		initButton(R.id.btn_go, ViewActivity.class);
 		initButton(R.id.btn_back, MainActivity.class);
-		initButton(R.id.btn_about, AboutActivity.class);
 	}
 	
 	

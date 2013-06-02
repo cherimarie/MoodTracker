@@ -12,6 +12,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:text="@string/about_headline" 
+		android:id="@+id/textview_about_headline"
 		style="@style/b_h1"/>	
     <!-- about paragraph -->      
        <TextView

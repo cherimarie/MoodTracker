@@ -13,7 +13,6 @@ public class ViewActivity extends BaseActivity  {
 		setContentView(R.layout.activity_view);
 		initButton(R.id.btn_back, ViewOptionsActivity.class);
 		initButton(R.id.btn_share, ShareActivity.class);
-		initButton(R.id.btn_about, AboutActivity.class);
 	}
 	
 	

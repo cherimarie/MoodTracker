@@ -13,6 +13,7 @@
 	<string name="view">View a Graph</string>
 	<string name="view_options">View Options</string>
 	<string name="setup">Set Up</string>
+	<string name="penguin">A happy penguin</string>
 	<string-array name="reminder_array">
 	    <item>none</item>
 	    <item>12pm</item>

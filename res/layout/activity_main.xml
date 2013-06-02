@@ -28,9 +28,19 @@
 			android:layout_height="wrap_content"
 			style="@style/b_error"/>
            	
-	<RelativeLayout 
+       <!-- cheerful penguin picture with fade in animation -->
+       		<ImageView 
+       		    android:layout_width="wrap_content"
+       		    android:layout_height="wrap_content"
+       		    android:padding="@dimen/activity_margin"
+       		    android:src="@drawable/happypenguin"
+       		    android:id="@+id/image_happy_penguin"
+       		    android:contentDescription="@string/penguin" />
+       		       		
+	<LinearLayout 
 	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content" >
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
 
 	    		<Button
 				android:id="@+id/btn_whatsup"
@@ -42,7 +52,6 @@
 				android:id="@+id/btn_view"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:layout_toRightOf="@id/btn_whatsup"
 				android:text="@string/view" />
 	
 	    		
@@ -50,15 +59,8 @@
 				android:id="@+id/btn_setup"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:layout_below="@id/btn_whatsup"
 				android:text="@string/setup" />
-	</RelativeLayout >
-	    	
-<!-- about button -->
-	    	<Button
-			android:id="@+id/btn_about"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/about" />
+
+		</LinearLayout>
 	</LinearLayout>
 </ScrollView>
