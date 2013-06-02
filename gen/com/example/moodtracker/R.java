@@ -69,7 +69,7 @@ public final class R {
         public static final int btn_add_intake2=0x7f0c000e;
         public static final int btn_add_intake3=0x7f0c0011;
         public static final int btn_back=0x7f0c001e;
-        public static final int btn_go=0x7f0c0027;
+        public static final int btn_go=0x7f0c0028;
         public static final int btn_home=0x7f0c0002;
         public static final int btn_photo=0x7f0c002e;
         public static final int btn_rmv_event1=0x7f0c0015;
@@ -78,10 +78,10 @@ public final class R {
         public static final int btn_rmv_intake1=0x7f0c000c;
         public static final int btn_rmv_intake2=0x7f0c000f;
         public static final int btn_rmv_intake3=0x7f0c0012;
-        public static final int btn_save=0x7f0c0028;
-        public static final int btn_send=0x7f0c001d;
+        public static final int btn_save=0x7f0c001d;
+        public static final int btn_send=0x7f0c0026;
         public static final int btn_setup=0x7f0c0007;
-        public static final int btn_share=0x7f0c0026;
+        public static final int btn_share=0x7f0c0027;
         public static final int btn_view=0x7f0c0006;
         public static final int btn_whatsup=0x7f0c0005;
         public static final int edittext_email1=0x7f0c001f;
