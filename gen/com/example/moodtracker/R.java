@@ -15,6 +15,7 @@ public final class R {
     }
     public static final class array {
         public static final int reminder_array=0x7f090000;
+        public static final int sleep_array=0x7f090001;
     }
     public static final class attr {
     }
@@ -58,60 +59,40 @@ public final class R {
         public static final int penguin=0x7f020002;
     }
     public static final class id {
-        public static final int action_settings=0x7f0c0035;
-        public static final int btn_add_1=0x7f0c0024;
-        public static final int btn_add_2=0x7f0c0026;
-        public static final int btn_add_3=0x7f0c0028;
-        public static final int btn_add_event1=0x7f0c0016;
-        public static final int btn_add_event2=0x7f0c001a;
-        public static final int btn_add_event3=0x7f0c001e;
-        public static final int btn_add_intake1=0x7f0c000b;
-        public static final int btn_add_intake2=0x7f0c000f;
-        public static final int btn_add_intake3=0x7f0c0013;
-        public static final int btn_back=0x7f0c0022;
-        public static final int btn_go=0x7f0c002c;
+        public static final int TextView_Name=0x7f0c001e;
+        public static final int action_settings=0x7f0c0021;
+        public static final int btn_add_1=0x7f0c0012;
+        public static final int btn_add_2=0x7f0c0014;
+        public static final int btn_add_3=0x7f0c0016;
+        public static final int btn_back=0x7f0c0010;
+        public static final int btn_go=0x7f0c001a;
         public static final int btn_home=0x7f0c0002;
-        public static final int btn_photo=0x7f0c0032;
-        public static final int btn_rmv_event1=0x7f0c0017;
-        public static final int btn_rmv_event2=0x7f0c001b;
-        public static final int btn_rmv_event3=0x7f0c001f;
-        public static final int btn_rmv_intake1=0x7f0c000c;
-        public static final int btn_rmv_intake2=0x7f0c0010;
-        public static final int btn_rmv_intake3=0x7f0c0014;
-        public static final int btn_save=0x7f0c0021;
-        public static final int btn_send=0x7f0c002a;
+        public static final int btn_save=0x7f0c000f;
+        public static final int btn_send=0x7f0c0018;
         public static final int btn_setup=0x7f0c0007;
-        public static final int btn_share=0x7f0c002b;
+        public static final int btn_share=0x7f0c0019;
         public static final int btn_view=0x7f0c0006;
         public static final int btn_whatsup=0x7f0c0005;
-        public static final int edittext_email1=0x7f0c0023;
-        public static final int edittext_email2=0x7f0c0025;
-        public static final int edittext_email3=0x7f0c0027;
-        public static final int edittext_event=0x7f0c0030;
-        public static final int edittext_event1=0x7f0c0015;
-        public static final int edittext_event2=0x7f0c0019;
-        public static final int edittext_event3=0x7f0c001d;
-        public static final int edittext_intake=0x7f0c002e;
+        public static final int edittext_email1=0x7f0c0011;
+        public static final int edittext_email2=0x7f0c0013;
+        public static final int edittext_email3=0x7f0c0015;
+        public static final int edittext_event=0x7f0c001c;
+        public static final int edittext_event1=0x7f0c000c;
+        public static final int edittext_intake=0x7f0c001b;
         public static final int edittext_intake1=0x7f0c000a;
-        public static final int edittext_intake2=0x7f0c000e;
-        public static final int edittext_intake3=0x7f0c0012;
         public static final int edittext_name=0x7f0c0009;
-        public static final int edittext_sender_email=0x7f0c0029;
-        public static final int event2=0x7f0c0018;
-        public static final int event3=0x7f0c001c;
+        public static final int edittext_sender_email=0x7f0c0017;
         public static final int home_headline=0x7f0c0003;
         public static final int image_happy_penguin=0x7f0c0004;
-        public static final int intake2=0x7f0c000d;
-        public static final int intake3=0x7f0c0011;
-        public static final int menuitem_about=0x7f0c0034;
-        public static final int menuitem_settings=0x7f0c0033;
-        public static final int spinner_event=0x7f0c002f;
-        public static final int spinner_intake=0x7f0c002d;
-        public static final int spinner_reminder=0x7f0c0020;
-        public static final int spinner_sleep=0x7f0c0031;
+        public static final int menuitem_about=0x7f0c0020;
+        public static final int menuitem_settings=0x7f0c001f;
+        public static final int spinner_reminder=0x7f0c000e;
+        public static final int spinner_sleep=0x7f0c001d;
         public static final int textview_about=0x7f0c0001;
         public static final int textview_about_headline=0x7f0c0000;
         public static final int textview_setup_error=0x7f0c0008;
+        public static final int view_saved_event1=0x7f0c000d;
+        public static final int view_saved_intake1=0x7f0c000b;
     }
     public static final class layout {
         public static final int activity_about=0x7f030000;
@@ -121,6 +102,7 @@ public final class R {
         public static final int activity_view=0x7f030004;
         public static final int activity_view_options=0x7f030005;
         public static final int activity_whatsup=0x7f030006;
+        public static final int whatsup_row=0x7f030007;
     }
     public static final class menu {
         public static final int general_menu=0x7f0b0000;

@@ -11,14 +11,15 @@
          <LinearLayout
        	android:layout_width="fill_parent"
   	  	android:layout_height="wrap_content"
-    	android:orientation="vertical" > 
-    	
+    	android:orientation="vertical"
+  	  	android:gravity="center"  > 
+    	<!-- gravity = center must be put here for the image view, each text view needs it specified individually -->
    	<!-- headline -->          
              <TextView
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:id="@+id/home_headline"
-			android:gravity="left"
+  	  		android:gravity="center"
 			style="@style/b_h1"/>	
         
         <!-- alert space  -->    
@@ -27,19 +28,20 @@
 			android:layout_height="wrap_content"
 			style="@style/b_error"/>
            	
-       <!-- cheerful penguin picture with fade in animation -->
+       <!-- cheerful penguin picture with rotation animation -->
        		<ImageView 
        		    android:layout_width="wrap_content"
        		    android:layout_height="wrap_content"
        		    android:padding="@dimen/activity_margin"
        		    android:src="@drawable/happypenguin"
        		    android:id="@+id/image_happy_penguin"
-       		    android:contentDescription="@string/penguin" />
+       		    android:contentDescription="@string/penguin"/>
        		       		
 	<LinearLayout 
 	    android:layout_width="fill_parent"
 	    android:layout_height="wrap_content"
-	    android:orientation="horizontal" >
+	    android:orientation="horizontal"
+  	  	android:gravity="center" >
 
 	    		<Button
 				android:id="@+id/btn_whatsup"

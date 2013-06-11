@@ -71,7 +71,7 @@ public class MainActivity extends BaseActivity {
 	}
 
 //a method to take you places! pass in Button Id and class of destination 
-	private void initButton(int btnId, final Class destination)
+	public void initButton(int btnId, final Class destination)
 	{
 		Button button = (Button)findViewById(btnId);
 		button.setOnClickListener(new OnClickListener(){

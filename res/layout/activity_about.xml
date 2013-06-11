@@ -13,7 +13,9 @@
 		android:layout_height="wrap_content"
 		android:text="@string/about_headline" 
 		android:id="@+id/textview_about_headline"
-		style="@style/b_h1"/>	
+		style="@style/b_h1"
+  	  	android:gravity="center" />
+        	
     <!-- about paragraph -->      
        <TextView
 		android:layout_width="match_parent"

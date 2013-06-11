@@ -41,6 +41,26 @@
         <item>10am</item>
         <item>11am</item>             
 	</string-array>	
+		<string-array name="sleep_array">
+	    <item>none</item>
+	    <item>1hr</item>
+	    <item>2hrs</item>
+        <item>3hrs</item>
+        <item>4hrs</item>
+        <item>5hrs</item>
+        <item>6hrs</item>
+        <item>7hrs</item>
+        <item>8hrs</item>
+        <item>9hrs</item> 
+        <item>10hrs</item> 
+        <item>11hrs</item>
+        <item>12hrs</item>
+        <item>13hrs</item>
+        <item>14hrs</item>
+        <item>15hrs</item>
+        <item>16hrs</item>
+        <item>16+ hours (i am a cat)</item>           
+	</string-array>	
 	<string name="about_para">Lorem ipsum about this app....</string>
 	<string name="about_headline">About Mood Tracker</string>
 	
@@ -65,8 +85,8 @@
 	<!-- label strings -->
 	<string name="from_addy_label">Your email address:</string>
 	<string name="send_addy_label">Address to send to:</string>
-	<string name="intake_label">Common intakes (prescriptions, etc):</string>
-	<string name="event_label">Common events:</string>
+	<string name="intake_label">Common intake (prescriptions, etc):</string>
+	<string name="event_label">Common event:</string>
 	<string name="reminder_label">Daily reminder?</string>
 	<string name="name_label">Name:</string>
 	<string name="mood_prompt">Mood:</string>

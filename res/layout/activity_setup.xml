@@ -19,7 +19,8 @@
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:text="@string/setup" 
-			style="@style/b_h1"/>	
+			style="@style/b_h1"
+  	  		android:gravity="center" />	
      
         <!-- error space  -->    
            	<TextView
@@ -64,6 +65,7 @@
 				android:maxLength="25"
 				android:windowSoftInputMode="stateHidden"/>
 	    		
+	    		<!-- don't need til we have multiple input areas 
 	    		<Button
 				android:id="@+id/btn_add_intake1"
 				android:layout_width="wrap_content"
@@ -75,72 +77,17 @@
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:visibility="invisible"
-				android:text="@string/btn_rmv" />
+				android:text="@string/btn_rmv" /> -->
 	    		
 	    </LinearLayout>
-	    <LinearLayout 
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:visibility="invisible"
-	    android:id="@+id/intake2"
-	    android:orientation="horizontal" >
-
-			<!-- intake text box and button 2 -->
-	   
-	    	    <EditText
-	    	    android:id="@+id/edittext_intake2"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:maxLength="25"
-				android:windowSoftInputMode="stateHidden"/>
-	    	    
-	    	   
-	    		<Button
-				android:id="@+id/btn_add_intake2"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:text="@string/btn_add" />
-	    		
-	    		<Button
-				android:id="@+id/btn_rmv_intake2"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:visibility="invisible"
-				android:text="@string/btn_rmv" />
-    		
-    	</LinearLayout>
-	    <LinearLayout 
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:orientation="horizontal"
-	      android:visibility="invisible"
-	    android:id="@+id/intake3" >
-
-			<!-- intake text box and button 3 -->
-	   
-	    	    <EditText
-				android:id="@+id/edittext_intake3" 
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:maxLength="25"
-				android:windowSoftInputMode="stateHidden" />
-	    	    
-	    		<Button
-				android:id="@+id/btn_add_intake3"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:text="@string/btn_add" />
-	    		
-	    		<Button
-				android:id="@+id/btn_rmv_intake3"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:visibility="invisible"
-				android:text="@string/btn_rmv" />
-    		
-    	</LinearLayout>
-	
-	
+	    
+        <!-- shows saved intake -->
+         <TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/view_saved_intake1"
+			style="@style/b_para"/>
+   
 	<!-- event label -->
         <TextView
 		android:layout_width="match_parent"
@@ -161,6 +108,7 @@
 				android:maxLength="25"
 				android:windowSoftInputMode="stateHidden"/>
 	    		
+	    		<!-- don't need until we have multiple input areas 
 	    		<Button
 				android:id="@+id/btn_add_event1"
 				android:layout_width="wrap_content"
@@ -172,72 +120,18 @@
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:visibility="invisible"
-				android:text="@string/btn_rmv" />
+				android:text="@string/btn_rmv" />-->
 
     	</LinearLayout>
-	    <LinearLayout 
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:orientation="horizontal"
-	    android:visibility="invisible"
-	    android:id="@+id/event2" >
-    		
-			<!-- event text box and button 2 -->
-	   
-	    	    <EditText
-	    	    android:id="@+id/edittext_event2"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:maxLength="25"
-				android:windowSoftInputMode="stateHidden"/>
-	    	    
-	    	   
-	    		<Button
-				android:id="@+id/btn_add_event2"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:text="@string/btn_add" />
-	    		
-	    		<Button
-				android:id="@+id/btn_rmv_event2"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:visibility="invisible"
-				android:text="@string/btn_rmv" />
-    		
-    	</LinearLayout>
-	    <LinearLayout 
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:orientation="horizontal" 
-	    android:visibility="invisible"
-	    android:id="@+id/event3" >
+    	
+	            <!-- shows saved event -->
+         <TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/view_saved_event1"
+			style="@style/b_para"/>
+        
 
-			<!-- event text box and button 3 -->
-	   
-	    	    <EditText
-				android:id="@+id/edittext_event3" 
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:maxLength="25"
-				android:windowSoftInputMode="stateHidden" />
-	    	    
-	    		<Button
-				android:id="@+id/btn_add_event3"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:text="@string/btn_add" />
-	    		
-	    		<Button
-				android:id="@+id/btn_rmv_event3"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:visibility="invisible"
-				android:text="@string/btn_rmv" />
-    		
-   		</LinearLayout>
-	    
-	
 		<!-- reminder label -->
 		    <TextView
 			android:layout_width="match_parent"
@@ -253,6 +147,11 @@
    		    android:layout_marginBottom="10dp"
    		    android:prompt="@string/reminder_label"	/>
     				
+   		 <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:gravity="center" >
 <!-- save button -->
 	    	<Button
 			android:id="@+id/btn_save"
@@ -266,6 +165,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:text="@string/back" />
+	    </LinearLayout>
 	    	
 
 	</LinearLayout>
