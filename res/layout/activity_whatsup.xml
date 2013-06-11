@@ -44,11 +44,16 @@
 	style="@style/b_h2"/>
 
 <!-- mood rating in stars goes here -->
-
+ 	<RatingBar 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:numStars="5"
+    android:stepSize="1.0" 
+    android:id="@+id/stars_mood" />
 
 <!-- intake label -->
     <TextView
-	android:layout_width="match_parent"
+	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
 	android:text="@string/intake_prompt" 
 	style="@style/b_h2"/>	

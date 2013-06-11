@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class WhatsupActivity extends BaseActivity  {
 	
@@ -35,7 +36,25 @@ public class WhatsupActivity extends BaseActivity  {
 	{
 		public void onClick(View v) 
 		{
+			//get int from star rating here
+			EditText Eevent = (EditText)findViewById(R.id.edittext_event);
+			EditText Eintake = (EditText)findViewById(R.id.edittext_intake);
+			Spinner Esleep = (Spinner)findViewById(R.id.spinner_sleep);
+			String event = Eevent.toString();
+			String intake = Eintake.toString();
+			String sleep = Esleep.toString();
 			
+			
+			long recordId =  new SQLHelper(WhatsupActivity.this).addRecordToDB(5, event, intake, sleep);
+    		
+    		if(recordId == -1)
+    		{
+    			Toast successEntry = Toast.makeText(WhatsupActivity.this, "Error adding record", Toast.LENGTH_LONG);
+    			return;
+    		}
+    		
+             Toast successEntry = Toast.makeText(WhatsupActivity.this, "Record successfully added", Toast.LENGTH_LONG);
+        	 successEntry.show();
 			startActivity(new Intent(WhatsupActivity.this, MainActivity.class));
 		}
 	}

@@ -59,8 +59,8 @@ public final class R {
         public static final int penguin=0x7f020002;
     }
     public static final class id {
-        public static final int TextView_Name=0x7f0c001e;
-        public static final int action_settings=0x7f0c0021;
+        public static final int TextView_Name=0x7f0c001f;
+        public static final int action_settings=0x7f0c0022;
         public static final int btn_add_1=0x7f0c0012;
         public static final int btn_add_2=0x7f0c0014;
         public static final int btn_add_3=0x7f0c0016;
@@ -76,18 +76,19 @@ public final class R {
         public static final int edittext_email1=0x7f0c0011;
         public static final int edittext_email2=0x7f0c0013;
         public static final int edittext_email3=0x7f0c0015;
-        public static final int edittext_event=0x7f0c001c;
+        public static final int edittext_event=0x7f0c001d;
         public static final int edittext_event1=0x7f0c000c;
-        public static final int edittext_intake=0x7f0c001b;
+        public static final int edittext_intake=0x7f0c001c;
         public static final int edittext_intake1=0x7f0c000a;
         public static final int edittext_name=0x7f0c0009;
         public static final int edittext_sender_email=0x7f0c0017;
         public static final int home_headline=0x7f0c0003;
         public static final int image_happy_penguin=0x7f0c0004;
-        public static final int menuitem_about=0x7f0c0020;
-        public static final int menuitem_settings=0x7f0c001f;
+        public static final int menuitem_about=0x7f0c0021;
+        public static final int menuitem_settings=0x7f0c0020;
         public static final int spinner_reminder=0x7f0c000e;
-        public static final int spinner_sleep=0x7f0c001d;
+        public static final int spinner_sleep=0x7f0c001e;
+        public static final int stars_mood=0x7f0c001b;
         public static final int textview_about=0x7f0c0001;
         public static final int textview_about_headline=0x7f0c0000;
         public static final int textview_setup_error=0x7f0c0008;
