@@ -29,13 +29,6 @@
 			android:text="@string/intro_para" 
 			style="@style/b_para"/>
             
-        <!-- error space  -->    
-           	<TextView
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:text="@string/feature_not_yet" 
-			style="@style/b_error"/>
-           	
          <!-- address label -->   
             <TextView
 			android:layout_width="match_parent"
@@ -49,7 +42,7 @@
 	    android:orientation="horizontal" >
 <!-- text box and button  -->
 	    		<EditText
-	    		android:id="@+id/edittext_email1"
+	    		android:id="@+id/edittext_recp_email"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:maxLength="25"
@@ -62,22 +55,6 @@
 				android:text="@string/btn_add" />
 	</LinearLayout  >
 	
-	
-<!-- your email label -->
-	        <TextView
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:text="@string/from_addy_label" 
-			style="@style/b_h2"/>
-	        
-<!-- your email textbox -->
-			<EditText
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:maxLength="20"
-			android:windowSoftInputMode="stateHidden"
-			android:id="@+id/edittext_sender_email" />
-			
 		<LinearLayout  
 	    android:layout_width="fill_parent"
 	    android:layout_height="wrap_content"
