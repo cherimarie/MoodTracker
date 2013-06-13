@@ -16,17 +16,17 @@ public class ShareActivity extends BaseActivity  {
 	}
 	
 	
-	//a method to take you places! pass in Button Id and class of destination 
-			private void initButton(int btnId, final Class destination)
-			{
-				Button button = (Button)findViewById(btnId);
-				button.setOnClickListener(new OnClickListener(){
-					
-					public void onClick(View v) {
-						startActivity(new Intent(ShareActivity.this, destination));
-					}
-					
-				});
+//a method to take you places! pass in Button Id and class of destination 
+	private void initButton(int btnId, final Class destination)
+	{
+		Button button = (Button)findViewById(btnId);
+		button.setOnClickListener(new OnClickListener(){
+			
+			public void onClick(View v) {
+				startActivity(new Intent(ShareActivity.this, destination));
 			}
+			
+		});
+	}
 			
 }

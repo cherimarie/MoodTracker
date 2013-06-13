@@ -3,17 +3,19 @@
 
    <!-- other strings -->
     <string name="app_name">Mood Tracker</string>
-  	<string name="intro_para">You can send a copy of the current graph to any email address. It will only send an image of the graph with your name and email address, none of your other information.</string>    
+  	<string name="intro_para">You can send a copy of the current output to any email address. It will only send an image of the view output with your name and email address, none of your other information.</string>    
 	<string name="action_settings">Settings</string>
 	<string name="share_headline">Share a Graph</string>
 	<string name="email_error">*Please enter a valid email address</string>
 	<string name="required_error">*Required</string>
 	<string name="home_headline">Hello</string>
 	<string name="whatsup">What\'s Up?</string>
-	<string name="view">View a Graph</string>
+	<string name="view">View Past Moods</string>
 	<string name="view_options">View Options</string>
 	<string name="setup">Set Up</string>
 	<string name="penguin">A happy penguin</string>
+	<string name="feature_not_yet">**Note: this feature is not yet implemented. Email will not be sent. </string>
+	<string name="view_headline">View Past Moods</string>
 	<string-array name="reminder_array">
 	    <item>none</item>
 	    <item>12pm</item>

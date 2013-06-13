@@ -33,7 +33,7 @@
            	<TextView
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text="@string/email_error" 
+			android:text="@string/feature_not_yet" 
 			style="@style/b_error"/>
            	
          <!-- address label -->   
@@ -62,51 +62,6 @@
 				android:text="@string/btn_add" />
 	</LinearLayout  >
 	
-	<LinearLayout   
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:orientation="horizontal"
-	   	android:visibility="invisible" >
-<!-- text box and button 2 -->
-	   
-	    	    <EditText
-	    	    android:id="@+id/edittext_email2"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:maxLength="25"
-				android:windowSoftInputMode="stateHidden"
-				 />
-	    	    
-	    	   
-	    		<Button
-				android:id="@+id/btn_add_2"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:text="@string/btn_add" />
-	</LinearLayout  >
-
-
-	<LinearLayout  
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:orientation="horizontal"
-	   	android:visibility="invisible" >
-<!-- text box and button 3 -->
-	   
-	    	    <EditText
-				android:id="@+id/edittext_email3" 
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:maxLength="25"
-				android:windowSoftInputMode="stateHidden" />
-	    	    
-	    		<Button
-				android:id="@+id/btn_add_3"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:text="@string/btn_add" />
-	</LinearLayout  >
-		
 	
 <!-- your email label -->
 	        <TextView
@@ -117,12 +72,18 @@
 	        
 <!-- your email textbox -->
 			<EditText
-			android:layout_width="wrap_content"
+			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:maxLength="20"
 			android:windowSoftInputMode="stateHidden"
 			android:id="@+id/edittext_sender_email" />
 			
+		<LinearLayout  
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:gravity="bottom" >
+	    		
 <!-- send button -->
 	    	<Button
 			android:id="@+id/btn_send"
@@ -136,6 +97,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:text="@string/back" />
+	    </LinearLayout>
 
 	</LinearLayout>
 </ScrollView>

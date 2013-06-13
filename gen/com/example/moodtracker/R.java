@@ -59,36 +59,35 @@ public final class R {
         public static final int penguin=0x7f020002;
     }
     public static final class id {
-        public static final int TextView_Name=0x7f0c001f;
-        public static final int action_settings=0x7f0c0022;
-        public static final int btn_add_1=0x7f0c0012;
-        public static final int btn_add_2=0x7f0c0014;
-        public static final int btn_add_3=0x7f0c0016;
-        public static final int btn_back=0x7f0c0010;
-        public static final int btn_go=0x7f0c001a;
+        public static final int ListView_Entries=0x7f0c0014;
+        public static final int TextView_Event=0x7f0c001d;
+        public static final int TextView_Intake=0x7f0c001c;
+        public static final int TextView_Mood=0x7f0c001b;
+        public static final int TextView_Sleep=0x7f0c001e;
+        public static final int action_settings=0x7f0c0021;
+        public static final int btn_add_1=0x7f0c0011;
+        public static final int btn_back=0x7f0c000f;
+        public static final int btn_go=0x7f0c0016;
         public static final int btn_home=0x7f0c0002;
-        public static final int btn_save=0x7f0c000f;
-        public static final int btn_send=0x7f0c0018;
+        public static final int btn_save=0x7f0c000e;
+        public static final int btn_send=0x7f0c0013;
         public static final int btn_setup=0x7f0c0007;
-        public static final int btn_share=0x7f0c0019;
+        public static final int btn_share=0x7f0c0015;
         public static final int btn_view=0x7f0c0006;
         public static final int btn_whatsup=0x7f0c0005;
-        public static final int edittext_email1=0x7f0c0011;
-        public static final int edittext_email2=0x7f0c0013;
-        public static final int edittext_email3=0x7f0c0015;
-        public static final int edittext_event=0x7f0c001d;
+        public static final int edittext_email1=0x7f0c0010;
+        public static final int edittext_event=0x7f0c0019;
         public static final int edittext_event1=0x7f0c000c;
-        public static final int edittext_intake=0x7f0c001c;
+        public static final int edittext_intake=0x7f0c0018;
         public static final int edittext_intake1=0x7f0c000a;
         public static final int edittext_name=0x7f0c0009;
-        public static final int edittext_sender_email=0x7f0c0017;
+        public static final int edittext_sender_email=0x7f0c0012;
         public static final int home_headline=0x7f0c0003;
         public static final int image_happy_penguin=0x7f0c0004;
-        public static final int menuitem_about=0x7f0c0021;
-        public static final int menuitem_settings=0x7f0c0020;
-        public static final int spinner_reminder=0x7f0c000e;
-        public static final int spinner_sleep=0x7f0c001e;
-        public static final int stars_mood=0x7f0c001b;
+        public static final int menuitem_about=0x7f0c0020;
+        public static final int menuitem_settings=0x7f0c001f;
+        public static final int spinner_sleep=0x7f0c001a;
+        public static final int stars_mood=0x7f0c0017;
         public static final int textview_about=0x7f0c0001;
         public static final int textview_about_headline=0x7f0c0000;
         public static final int textview_setup_error=0x7f0c0008;
@@ -115,46 +114,48 @@ public final class R {
     public static final class string {
         /**  button strings 
          */
-        public static final int about=0x7f08000f;
-        public static final int about_headline=0x7f08000d;
-        public static final int about_para=0x7f08000c;
+        public static final int about=0x7f080011;
+        public static final int about_headline=0x7f08000f;
+        public static final int about_para=0x7f08000e;
         public static final int action_settings=0x7f080002;
         /**  other strings 
          */
         public static final int app_name=0x7f080000;
-        public static final int back=0x7f080011;
-        public static final int btn_add=0x7f080013;
-        public static final int btn_go=0x7f080014;
-        public static final int btn_photo=0x7f080019;
-        public static final int btn_rmv=0x7f080012;
-        public static final int btn_share=0x7f080017;
-        public static final int btn_show=0x7f080016;
+        public static final int back=0x7f080013;
+        public static final int btn_add=0x7f080015;
+        public static final int btn_go=0x7f080016;
+        public static final int btn_photo=0x7f08001b;
+        public static final int btn_rmv=0x7f080014;
+        public static final int btn_share=0x7f080019;
+        public static final int btn_show=0x7f080018;
         public static final int email_error=0x7f080004;
-        public static final int event_label=0x7f08001d;
-        public static final int event_prompt=0x7f080022;
+        public static final int event_label=0x7f08001f;
+        public static final int event_prompt=0x7f080024;
+        public static final int feature_not_yet=0x7f08000c;
         /**  label strings 
          */
-        public static final int from_addy_label=0x7f08001a;
-        public static final int home=0x7f080018;
+        public static final int from_addy_label=0x7f08001c;
+        public static final int home=0x7f08001a;
         public static final int home_headline=0x7f080006;
-        public static final int intake_label=0x7f08001c;
-        public static final int intake_prompt=0x7f080021;
+        public static final int intake_label=0x7f08001e;
+        public static final int intake_prompt=0x7f080023;
         public static final int intro_para=0x7f080001;
-        public static final int mood_prompt=0x7f080020;
-        public static final int name_label=0x7f08001f;
+        public static final int mood_prompt=0x7f080022;
+        public static final int name_label=0x7f080021;
         public static final int penguin=0x7f08000b;
-        public static final int reminder_label=0x7f08001e;
+        public static final int reminder_label=0x7f080020;
         public static final int required_error=0x7f080005;
-        public static final int save=0x7f080015;
-        public static final int send=0x7f080010;
-        public static final int send_addy_label=0x7f08001b;
+        public static final int save=0x7f080017;
+        public static final int send=0x7f080012;
+        public static final int send_addy_label=0x7f08001d;
         public static final int setup=0x7f08000a;
         public static final int share_headline=0x7f080003;
-        public static final int sleep_prompt=0x7f080023;
+        public static final int sleep_prompt=0x7f080025;
         public static final int view=0x7f080008;
+        public static final int view_headline=0x7f08000d;
         public static final int view_options=0x7f080009;
         public static final int whatsup=0x7f080007;
-        public static final int y=0x7f08000e;
+        public static final int y=0x7f080010;
     }
     public static final class style {
         /** 

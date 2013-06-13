@@ -4,11 +4,28 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
     
-      <TextView
-  	android:id="@+id/TextView_Name"
+    <TextView
+  	android:id="@+id/TextView_Mood"
   	android:layout_width="wrap_content"
  	android:layout_height="wrap_content"
   	/>
     
+    <TextView
+  	android:id="@+id/TextView_Intake"
+  	android:layout_width="wrap_content"
+ 	android:layout_height="wrap_content"
+  	/>
+        
+    <TextView
+  	android:id="@+id/TextView_Event"
+  	android:layout_width="wrap_content"
+ 	android:layout_height="wrap_content"
+  	/>
+    
+    <TextView
+  	android:id="@+id/TextView_Sleep"
+  	android:layout_width="wrap_content"
+ 	android:layout_height="wrap_content"
+  	/>
 
 </LinearLayout>

@@ -23,7 +23,7 @@ public class MainActivity extends BaseActivity {
 		settings = getSharedPreferences(SETTINGS_PREFS, Context.MODE_PRIVATE);
 		setContentView(R.layout.activity_main);
 		initButton(R.id.btn_whatsup, WhatsupActivity.class);
-		initButton(R.id.btn_view, ViewOptionsActivity.class);
+		initButton(R.id.btn_view, ViewActivity.class);
 		initButton(R.id.btn_setup, SetupActivity.class);
 		initTextField(R.id.home_headline, SETTINGS_PREFS_NAME);
 		

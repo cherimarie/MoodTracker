@@ -3,12 +3,12 @@ package com.example.moodtracker;
 public class WhatsupEntry {
 	
 	private int id;
-	private int mood;
+	private float mood;
 	private String event;
 	private String intake; 
 	private String sleep;
 	
-	public WhatsupEntry(int id, int mood, String event, String intake, String sleep)
+	public WhatsupEntry(int id, float mood, String event, String intake, String sleep)
 	{
 		this.mood = mood;
 		this.event = event; 
@@ -19,7 +19,7 @@ public class WhatsupEntry {
 		return id;
 	}
 	
-	public int getMood(){
+	public float getMood(){
 		return mood;
 	}
 	

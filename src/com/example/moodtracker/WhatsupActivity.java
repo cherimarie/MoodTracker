@@ -9,6 +9,7 @@ import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RatingBar;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -20,8 +21,6 @@ public class WhatsupActivity extends BaseActivity  {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_whatsup);
 		settings = getSharedPreferences(SETTINGS_PREFS, Context.MODE_PRIVATE);
-		initButton(R.id.btn_save, MainActivity.class);
-		initButton(R.id.btn_send, MainActivity.class);
 		initButton(R.id.btn_back, MainActivity.class); 
 		initSpinner(R.id.spinner_sleep, R.array.sleep_array, ""); 
 		initTextField(R.id.edittext_event, SETTINGS_PREFS_EVENT1);
@@ -37,15 +36,19 @@ public class WhatsupActivity extends BaseActivity  {
 		public void onClick(View v) 
 		{
 			//get int from star rating here
+			RatingBar rating = (RatingBar)findViewById(R.id.stars_mood);
+			float moodstars = rating.getRating();
+			
 			EditText Eevent = (EditText)findViewById(R.id.edittext_event);
+			String event = Eevent.getText().toString().trim();
+			
 			EditText Eintake = (EditText)findViewById(R.id.edittext_intake);
+			String intake = Eintake.getText().toString().trim();
+			
 			Spinner Esleep = (Spinner)findViewById(R.id.spinner_sleep);
-			String event = Eevent.toString();
-			String intake = Eintake.toString();
-			String sleep = Esleep.toString();
+			String sleep = Esleep.getSelectedItem().toString();
 			
-			
-			long recordId =  new SQLHelper(WhatsupActivity.this).addRecordToDB(5, event, intake, sleep);
+			long recordId =  new SQLHelper(WhatsupActivity.this).addRecordToDB(moodstars, event, intake, sleep);
     		
     		if(recordId == -1)
     		{
@@ -72,7 +75,7 @@ public class WhatsupActivity extends BaseActivity  {
 	}
 	
 	public void initSpinner(int spinnerId, int arrayId, String prefKey)
-	{//how are we going to populate these with info from settings? do checkboxes/text views instead? or figure out how to string - > array convert and back 
+	{
 		Spinner spinner = (Spinner)findViewById(spinnerId);
 		
 		ArrayAdapter<CharSequence> adapter = 

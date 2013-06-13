@@ -43,9 +43,9 @@
 	android:text="@string/mood_prompt" 
 	style="@style/b_h2"/>
 
-<!-- mood rating in stars goes here -->
+<!-- mood rating in stars -->
  	<RatingBar 
-    android:layout_width="fill_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:numStars="5"
     android:stepSize="1.0" 

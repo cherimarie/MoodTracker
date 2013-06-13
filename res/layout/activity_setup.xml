@@ -131,22 +131,6 @@
 			android:id="@+id/view_saved_event1"
 			style="@style/b_para"/>
         
-
-		<!-- reminder label -->
-		    <TextView
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:text="@string/reminder_label" 
-			style="@style/b_h2"/>
-		      
-	<!--  reminder spinner 1 -->
-   		<Spinner 
-   		    android:id="@+id/spinner_reminder"
-   		    android:layout_width="wrap_content"
-   		    android:layout_height="wrap_content"
-   		    android:layout_marginBottom="10dp"
-   		    android:prompt="@string/reminder_label"	/>
-    				
    		 <LinearLayout 
 	    android:layout_width="fill_parent"
 	    android:layout_height="wrap_content"
