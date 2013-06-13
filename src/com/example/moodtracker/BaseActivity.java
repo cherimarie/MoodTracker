@@ -35,6 +35,7 @@ public class BaseActivity  extends Activity{
 	public static final String SETTINGS_PREFS_WUP_EVENT2 = "W_EVENT2";
 	public static final String SETTINGS_PREFS_WUP_EVENT3 = "W_EVENT3";
 	public static final int SETTINGS_PREFS_WUP_SLEEP = 0;
+	public static final String SETTINGS_PREFS_SHARABLE = "info to share";
 	
 
 	public boolean onCreateOptionsMenu(Menu menu)

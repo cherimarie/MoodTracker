@@ -14,6 +14,8 @@ import android.widget.Toast;
 public class ShareActivity extends BaseActivity  {
 
 	private SharedPreferences settings;
+	public String name;
+	public String sharable; 
 	
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -22,6 +24,21 @@ public class ShareActivity extends BaseActivity  {
 		initButton(R.id.btn_back, ViewActivity.class);
 		Button sendButton = (Button)findViewById(R.id.btn_send);
 		sendButton.setOnClickListener(new ShareButtonListener());
+		name = initSettings(SETTINGS_PREFS_NAME);
+		sharable = initSettings(SETTINGS_PREFS_SHARABLE);
+	}
+	
+	public String initSettings( String prefKey)
+	{ 
+		String text = "";
+		if(settings.contains(prefKey))
+		{
+			text = settings.getString(prefKey, "");
+			//second arg is default value- what should pop out if there's nothing in there? 
+			
+		}
+		return text;
+		//use prefKey to get the value, then put it in the text field
 	}
 	
 	private class ShareButtonListener implements View.OnClickListener 
@@ -34,8 +51,8 @@ public class ShareActivity extends BaseActivity  {
 			Intent i = new Intent(Intent.ACTION_SEND);
 			i.setType("message/rfc822");
 			i.putExtra(Intent.EXTRA_EMAIL  , new String[]{recpEmail});
-			i.putExtra(Intent.EXTRA_SUBJECT, "mood tracker from " + SETTINGS_PREFS_NAME);
-			i.putExtra(Intent.EXTRA_TEXT   , "body of email");
+			i.putExtra(Intent.EXTRA_SUBJECT, "mood tracker from " + name);
+			i.putExtra(Intent.EXTRA_TEXT, sharable);
 			try {
 			    startActivity(Intent.createChooser(i, "Send mail..."));
 			} catch (android.content.ActivityNotFoundException ex) {
